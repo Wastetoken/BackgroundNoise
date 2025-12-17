@@ -1,0 +1,7 @@
+{
+  "name": "CHROMA-SYS",
+  "description": "High-fidelity industrial generative art synthesizer with audio reactivity.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
