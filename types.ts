@@ -12,7 +12,17 @@ export enum VisualMode {
   ECHO = 10,
   VORTEX = 11,
   CYBER = 12,
-  NOISE = 13
+  NOISE = 13,
+  FLOWFIELD = 14,
+  KALEIDO = 15,
+  DATAMOS = 16,
+  MEMBRANE = 17,
+  REACTION = 18,
+  MATRIX = 19,
+  NEON = 20,
+  CIRCUIT = 21,
+  JITTER = 22,
+  VOID = 23
 }
 
 export interface SynthsState {
@@ -25,6 +35,7 @@ export interface SynthsState {
   mode: VisualMode;
   colorA: string;     // Hex
   colorB: string;     // Hex
+  motion: boolean;    // Added for static/dynamic toggle
 }
 
 export interface AudioData {
